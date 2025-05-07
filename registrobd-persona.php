@@ -15,7 +15,7 @@
     header("location:consultar_personas.php");
     exit();
   }else{
-    echo "Problemas al registrar el animal, verifique de nuevo: " . mysqli_error($conexion);
+    echo "Problemas al registrar al usuario, verifique de nuevo: " . mysqli_error($conexion);
   }
 
 ?>
