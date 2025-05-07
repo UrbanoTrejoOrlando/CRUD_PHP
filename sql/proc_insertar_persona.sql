@@ -17,5 +17,4 @@ END //
 DELIMITER ;
 
 CALL proc_insertar_persona ('Orlando','Urbano', 'Trejo', '20', '2003-07-17','1');
-CALL proc_insertar_persona ('Ernesto','Archundia', 'Montiel', '20', '2003-12-24','1');
 
