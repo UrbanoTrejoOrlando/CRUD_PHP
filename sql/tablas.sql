@@ -1,3 +1,4 @@
+--- Creacion de la tabla persona
 CREATE TABLE persona (
 	id_persona MEDIUMINT AUTO_INCREMENT,
 	nombre VARCHAR(30) NOT NULL,
