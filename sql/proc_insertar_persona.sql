@@ -1,3 +1,6 @@
+-- Verificar si el procedure existe
+DROP PROCEDURE IF EXISTS proc_insertar_persona;
+
 DELIMITER //
 CREATE PROCEDURE proc_insertar_persona (
 	IN p_nombre VARCHAR(30),
