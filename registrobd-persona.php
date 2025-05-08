@@ -7,6 +7,7 @@
   $apellidoP = $_POST['txtApellidoP'];
   // Recibe en una variable el resultado en txtApellidoM
   $apellidoM = $_POST['txtApellidoM'];
+  // Recibe en una variable el resultado en txtEdad
   $edad = $_POST['txtEdad'];
   $fecha = $_POST['txtFecha'];
   $sexo = $_POST['cmbSexo'];
