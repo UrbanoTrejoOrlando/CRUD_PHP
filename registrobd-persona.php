@@ -17,6 +17,7 @@
   // Impresion de las variables para verificar si se estan recibiendo los datos del formulario
   echo "$nombre | $apellidoP | $apellidoM | $edad | $fecha | $sexo ";
 
+  // Llamda al procedimiento almacenado
   $sql = "CALL proc_insertar_persona('$nombre','$apellidoP','$apellidoM',$edad,'$fecha',$sexo);";
   if(mysqli_query($conexion,$sql)){
    # redireccionar a consultar personas
