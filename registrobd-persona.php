@@ -24,6 +24,7 @@
     header("location:consultar_personas.php");
     exit();
   }else{
+    // Impresion del resultado por si es incorrecto
     echo "Problemas al registrar al usuario, verifique de nuevo: " . mysqli_error($conexion);
   }
 
