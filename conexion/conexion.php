@@ -15,6 +15,7 @@ if (!$conexion) {
     // Enviar un mensaje si falla la conexion
     echo "Problema al conectar con la BD: " . mysqli_connect_error();
 } else {
+    // Mandar un mensaje si la conxion fue exitosa
     echo "Conexión exitosa a la base de datos";
 }
 ?>
