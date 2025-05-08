@@ -1,6 +1,7 @@
 <?php
   //Conexion a la base de datos
   include("conexion/conexion.php");
+  // Recibe en una variable el resultado en txtNombre
   $nombre = $_POST['txtNombre'];
   $apellidoP = $_POST['txtApellidoP'];
   $apellidoM = $_POST['txtApellidoM'];
