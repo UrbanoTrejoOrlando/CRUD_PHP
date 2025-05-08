@@ -1,6 +1,7 @@
 <?php
 // Conexion a la base de datos
 include("conexion/conexion.php");
+// Recibe en una variable el resultado en nombre_persona
 $nombre = $_GET['nombre_persona'];
 echo $nombre;
 
