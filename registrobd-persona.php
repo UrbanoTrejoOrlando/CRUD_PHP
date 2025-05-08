@@ -14,6 +14,7 @@
   // Recibe en una variable el resultado en cmbSexo
   $sexo = $_POST['cmbSexo'];
 
+  // Impresion de las variables para verificar si se estan recibiendo los datos del formulario
   echo "$nombre | $apellidoP | $apellidoM | $edad | $fecha | $sexo ";
 
   $sql = "CALL proc_insertar_persona('$nombre','$apellidoP','$apellidoM',$edad,'$fecha',$sexo);";
