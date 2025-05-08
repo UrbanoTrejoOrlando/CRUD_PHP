@@ -1,4 +1,5 @@
 <?php
+// Variable indicando a que servidor apunta la conexion
 $servidor = "localhost";
 $usuario = "php";
 $baseDatos = "crud_php";
