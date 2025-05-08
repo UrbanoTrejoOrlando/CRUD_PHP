@@ -1,14 +1,14 @@
 <?php
-  $servidor = "localhost";
-  $usuario = "php";
-  $baseDatos = "crud_php";
-  $password = "conexion";
+$servidor = "localhost";
+$usuario = "php";
+$baseDatos = "crud_php";
+$password = "conexion";
 
-  //conectando a la base Datos
-  $conexion = mysqli_connect($servidor,$usuario,$password,$baseDatos);
-  if(!$conexion){
-    echo "Problema al conecatar con la BD";
-  }  
+$conexion = mysqli_connect($servidor, $usuario, $password, $baseDatos);
 
+if (!$conexion) {
+    echo "Problema al conectar con la BD: " . mysqli_connect_error();
+} else {
+    echo "Conexión exitosa a la base de datos";
+}
 ?>
-
