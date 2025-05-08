@@ -3,6 +3,7 @@
 $servidor = "localhost";
 // Usuario de la base de datos
 $usuario = "php";
+// Base de datos a la que se conecta
 $baseDatos = "crud_php";
 $password = "conexion";
 
