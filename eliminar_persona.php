@@ -1,6 +1,5 @@
 <?php
 include("conexion/conexion.php");
-// Recibe en una variable el resultado en nombre_persona
 $nombre = $_GET['nombre_persona'];
 // Impresion de la variable
 echo $nombre;
