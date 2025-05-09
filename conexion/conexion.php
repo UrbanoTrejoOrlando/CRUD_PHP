@@ -4,7 +4,6 @@ $usuario = "php";
 $baseDatos = "crud_php";
 $password = "conexion";
 
-// Conectar todas las variables con mysql
 $conexion = mysqli_connect($servidor, $usuario, $password, $baseDatos);
 // Validaciones
 if (!$conexion) {
