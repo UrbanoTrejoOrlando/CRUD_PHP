@@ -3,7 +3,6 @@ include("conexion/conexion.php");
 $nombre = $_GET['nombre_persona'];
 echo $nombre;
 
-# Llamada al procedure
 $sql = "CALL proc_eliminar_persona('$nombre')";
 
 // Verificar si la conexion es correcta
