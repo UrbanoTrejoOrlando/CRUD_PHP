@@ -1,5 +1,5 @@
 -- Verificar si el procedure existe
-DROP PROCEDURE IF EXISTS proc_mostrar_persona;
+DROP PROCEDURE IF EXISTS proc_mostrar_personas;
 
 DELIMITER // 
 CREATE PROCEDURE proc_mostrar_personas()
