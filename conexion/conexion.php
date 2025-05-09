@@ -1,5 +1,4 @@
 <?php
-// Variable indicando a que servidor apunta la conexion
 $servidor = "localhost";
 // Usuario de la base de datos
 $usuario = "php";
