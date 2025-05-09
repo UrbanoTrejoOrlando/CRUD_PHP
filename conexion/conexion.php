@@ -2,7 +2,6 @@
 $servidor = "localhost";
 $usuario = "php";
 $baseDatos = "crud_php";
-// Contraseña perteneciente al usuario
 $password = "conexion";
 
 // Conectar todas las variables con mysql
