@@ -1,7 +1,6 @@
 <?php
 include("conexion/conexion.php");
 $nombre = $_GET['nombre_persona'];
-// Impresion de la variable
 echo $nombre;
 
 # Llamada al procedure
