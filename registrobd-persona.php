@@ -5,7 +5,6 @@
   $apellidoM = $_POST['txtApellidoM'];
   $edad = $_POST['txtEdad'];
   $fecha = $_POST['txtFecha'];
-  // Recibe en una variable el resultado en cmbSexo
   $sexo = $_POST['cmbSexo'];
 
   // Impresion de las variables para verificar si se estan recibiendo los datos del formulario
