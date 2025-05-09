@@ -1,7 +1,6 @@
 <?php
   include("conexion/conexion.php");
   $nombre = $_POST['txtNombre'];
-  // Recibe en una variable el resultado en txtApellidoP
   $apellidoP = $_POST['txtApellidoP'];
   // Recibe en una variable el resultado en txtApellidoM
   $apellidoM = $_POST['txtApellidoM'];
