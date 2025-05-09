@@ -5,7 +5,6 @@ $baseDatos = "crud_php";
 $password = "conexion";
 
 $conexion = mysqli_connect($servidor, $usuario, $password, $baseDatos);
-// Validaciones
 if (!$conexion) {
     // Enviar un mensaje si falla la conexion
     echo "Problema al conectar con la BD: " . mysqli_connect_error();
