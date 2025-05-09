@@ -9,8 +9,8 @@
 
   echo "$nombre | $apellidoP | $apellidoM | $edad | $fecha | $sexo ";
 
-  $sql = "CALL proc_insertar_persona('$nombre','$apellidoP','$apellidoM',$edad,'$fecha',$sexo);";
-  if(mysqli_query($conexion,$sql)){
+  /* $sql = "CALL proc_insertar_persona('$nombre','$apellidoP','$apellidoM',$edad,'$fecha',$sexo);";
+  /if(mysqli_query($conexion,$sql)){
    # redireccionar a consultar personas
     header("location:consultar_personas.php");
     exit();
@@ -18,6 +18,6 @@
     // Impresion del resultado por si es incorrecto
     echo "Problemas al registrar al usuario, verifique de nuevo: " . mysqli_error($conexion);
   }
-
+*/
 ?>
 
