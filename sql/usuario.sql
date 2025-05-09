@@ -1,4 +1,3 @@
--- Creacion de la base de datos
 CREATE DATABASE crud_php;
 -- Creacion de un usuario
 CREATE USER 'php'@'%' IDENTIFIED BY 'conexion';
