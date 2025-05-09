@@ -7,7 +7,6 @@
   $fecha = $_POST['txtFecha'];
   $sexo = $_POST['cmbSexo'];
 
-  // Impresion de las variables para verificar si se estan recibiendo los datos del formulario
   echo "$nombre | $apellidoP | $apellidoM | $edad | $fecha | $sexo ";
 
   // Llamda al procedimiento almacenado
